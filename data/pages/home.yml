@@ -1,7 +1,6 @@
 hero:
   image: /images/uploads/homepage-hero.jpg
-  title: Hotel Cochin Fort
-  color: red
+  title:   
 story: >+
   Cochin Fort Restaurant located in the heart of Fort cochin combines
   flavors & inspiration from the Far East & the West
@@ -17,3 +16,5 @@ story: >+
   with our fantastic unique cuisine. Cheers!<br><br>
 
   "Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.
+  
+ color: red
