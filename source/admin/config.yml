@@ -23,6 +23,7 @@ collections:
       - {label: Weight, name: weight, widget: number}
       - {label: Price, name: price, widget: number}
       - {label: Body, name: body, widget: markdown}
+      - {color: #FFFFFF}
 
 #markdown middleman blog example
   - name: blog
@@ -38,6 +39,7 @@ collections:
       - {label: Description, name: description, widget: string}
       - {label: Image, name: image, widget: image}
       - {label: Body, name: body, widget: markdown}
+      - {color: #FFFFFF}
 
   - name: pages
     label: Pages
@@ -52,7 +54,7 @@ collections:
             fields:
               - {label: Title, name: title, widget: string, text-align: center,vertical-align: top,animation: mynewmove 8s 8, color: #FFFFFF)}
               - {label: Image, name: image, widget: image}
-              - {color: from: hsl(120, 97%, 38%) to: hsl(120, 97%, 88%)}
+              - {color: #FFFFFF}
           - label: Story
             name: story
             widget: markdown
