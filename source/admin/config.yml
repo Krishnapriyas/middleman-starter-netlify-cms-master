@@ -50,7 +50,7 @@ collections:
             name: hero
             widget: object
             fields:
-              - {label: Title, name: title, widget: string, text-align: center, color: =if([$Due_x0020_Date] <= @now, '#ffcccc', '#ccffcc')}
+              - {label: Title, name: title, widget: string, text-align: center,vertical-align: top,animation: mynewmove 8s 8, color: #FFFFFF)}
               - {label: Image, name: image, widget: image}
           - label: Story
             name: story
